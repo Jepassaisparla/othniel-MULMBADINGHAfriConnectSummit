@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme - AfriConnect Summit 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AfriConnect</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="programme.html" class="nav-link active">Programme</a>
+                <a href="intervenants.html" class="nav-link">Intervenants</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer mode sombre">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section Hero Interne -->
+        <section class="internal-hero">
+            <div class="internal-hero-content">
+                <h1>Programme de la Conférence</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>Programme</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Section Onglets Programme -->
+        <section class="schedule">
+            <h2>Agenda 3 Jours</h2>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="day1">Jour 1 · 15 Nov</button>
+                <button class="tab-btn" data-tab="day2">Jour 2 · 16 Nov</button>
+                <button class="tab-btn" data-tab="day3">Jour 3 · 17 Nov</button>
+            </div>
+
+            <!-- Jour 1 -->
+            <div class="tab-content active" id="day1">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Heure</th>
+                            <th>Session</th>
+                            <th>Intervenant</th>
+                            <th>Salle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row-odd">
+                            <td>09:00 - 09:30</td>
+                            <td>Ouverture & Keynote</td>
+                            <td>Amara Okonkwo</td>
+                            <td>Main Hall</td>
+                        </tr>
+                        <tr>
+                            <td>09:45 - 10:45</td>
+                            <td>Intelligence Artificielle en Afrique</td>
+                            <td>Ibrahim Diallo</td>
+                            <td>Salle A</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>11:00 - 12:00</td>
+                            <td>Web3 et Blockchain</td>
+                            <td>Zainab Mohamed</td>
+                            <td>Salle B</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 - 13:30</td>
+                            <td>Pause Déjeuner</td>
+                            <td>-</td>
+                            <td>Espace Buffet</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>13:30 - 14:30</td>
+                            <td>Startups Africaines - Pitch Session</td>
+                            <td>Marcus Mensah</td>
+                            <td>Main Hall</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Jour 2 -->
+            <div class="tab-content" id="day2">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Heure</th>
+                            <th>Session</th>
+                            <th>Intervenant</th>
+                            <th>Salle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row-odd">
+                            <td>09:00 - 10:00</td>
+                            <td>Panel: Fintech en Afrique</td>
+                            <td>Ibrahim Diallo & Autres</td>
+                            <td>Main Hall</td>
+                        </tr>
+                        <tr>
+                            <td>10:15 - 11:15</td>
+                            <td>DevOps et Infrastructure Cloud</td>
+                            <td>Zainab Mohamed</td>
+                            <td>Salle A</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>11:30 - 12:30</td>
+                            <td>Leadership Technique</td>
+                            <td>Marcus Mensah</td>
+                            <td>Salle B</td>
+                        </tr>
+                        <tr>
+                            <td>12:30 - 14:00</td>
+                            <td>Pause Déjeuner</td>
+                            <td>-</td>
+                            <td>Espace Buffet</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>14:00 - 15:30</td>
+                            <td>Atelier: Mobile Development</td>
+                            <td>Amara Okonkwo</td>
+                            <td>Salle C</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Jour 3 -->
+            <div class="tab-content" id="day3">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Heure</th>
+                            <th>Session</th>
+                            <th>Intervenant</th>
+                            <th>Salle</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="row-odd">
+                            <td>09:00 - 10:00</td>
+                            <td>Investissement en Tech Africaine</td>
+                            <td>Keynote Investor</td>
+                            <td>Main Hall</td>
+                        </tr>
+                        <tr>
+                            <td>10:15 - 11:15</td>
+                            <td>Sécurité Cyber</td>
+                            <td>Zainab Mohamed</td>
+                            <td>Salle A</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>11:30 - 12:30</td>
+                            <td>Panels des Startups Lauréates</td>
+                            <td>Tous les intervenants</td>
+                            <td>Main Hall</td>
+                        </tr>
+                        <tr>
+                            <td>12:30 - 14:00</td>
+                            <td>Déjeuner de Clôture</td>
+                            <td>-</td>
+                            <td>Terrasse</td>
+                        </tr>
+                        <tr class="row-odd">
+                            <td>14:00 - 15:00</td>
+                            <td>Clôture & Remise de Prix</td>
+                            <td>Amara Okonkwo</td>
+                            <td>Main Hall</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section Thématiques -->
+        <section class="themes">
+            <h2>Thématiques de la Conférence</h2>
+            <div class="themes-grid">
+                <div class="theme-card">
+                    <div class="theme-icon">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+                    <h3>IA & Machine Learning</h3>
+                    <p>Explorez les applications pratiques de l'IA dans les entreprises africaines</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <h3>Web3 & Blockchain</h3>
+                    <p>Découvrez le futur décentralisé et les crypto-monnaies en Afrique</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">
+                        <i class="bi bi-rocket"></i>
+                    </div>
+                    <h3>Entrepreneuriat Tech</h3>
+                    <p>Conseils et témoignages de fondateurs de startups réussies</p>
+                </div>
+                <div class="theme-card">
+                    <div class="theme-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3>Sécurité & Éthique</h3>
+                    <p>Tendances en cybersécurité et considérations éthiques du digital</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>À propos</h4>
+                <p>AfriConnect Summit réunit les meilleures talents et innovateurs du continent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> AfriConnect Summit. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
