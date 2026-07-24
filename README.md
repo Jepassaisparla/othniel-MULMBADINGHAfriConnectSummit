@@ -6,8 +6,8 @@ Site vitrine complet pour **AfriConnect Summit 2026**, une conférence tech pana
 
 Le projet a été développé en HTML5, CSS3 et JavaScript vanilla, sans framework, dans le respect des bonnes pratiques web modernes.
 
-**Candidat:** [Votre Nom]  
-**Classe:** [Votre Classe]  
+**Candidat:** [Othniel MUL'MBADINGH]  
+**Classe:** [L1CS]  
 **Durée:** 2 semaines  
 
 ---
