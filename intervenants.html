@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervenants - AfriConnect Summit 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AfriConnect</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html" class="nav-link">Accueil</a>
+                <a href="programme.html" class="nav-link">Programme</a>
+                <a href="intervenants.html" class="nav-link active">Intervenants</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Basculer mode sombre">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section Hero Interne -->
+        <section class="internal-hero">
+            <div class="internal-hero-content">
+                <h1>Nos Intervenants</h1>
+                <nav class="breadcrumb">
+                    <a href="index.html">Accueil</a>
+                    <span>/</span>
+                    <span>Intervenants</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Filtres -->
+        <section class="speakers-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="ai">IA & Tech</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="data">Data</button>
+            </div>
+
+            <!-- Grille d'intervenants -->
+            <div class="speakers-full-grid">
+                <div class="full-speaker-card" data-category="ai">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Amara Okonkwo</h3>
+                    <p class="speaker-title">Fondatrice, TechHub Lagos</p>
+                    <p class="speaker-specialty">IA & Tech</p>
+                    <p class="speaker-country">🇳🇬 Nigeria</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="business">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Ibrahim Diallo</h3>
+                    <p class="speaker-title">CTO, Fintech Solutions</p>
+                    <p class="speaker-specialty">Business</p>
+                    <p class="speaker-country">🇸🇳 Sénégal</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="ai">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Zainab Mohamed</h3>
+                    <p class="speaker-title">Lead Developer, AI Lab</p>
+                    <p class="speaker-specialty">IA & Tech</p>
+                    <p class="speaker-country">🇰🇪 Kenya</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="data">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <h3>Marcus Mensah</h3>
+                    <p class="speaker-title">CEO, Ghana Digital</p>
+                    <p class="speaker-specialty">Data</p>
+                    <p class="speaker-country">🇬🇭 Ghana</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="design">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <h3>Ngozi Okafor</h3>
+                    <p class="speaker-title">UX Lead, Designers Collective</p>
+                    <p class="speaker-specialty">Design</p>
+                    <p class="speaker-country">🇳🇬 Nigeria</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="business">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+                    <h3>Antoine Rousseau</h3>
+                    <p class="speaker-title">Product Manager, Tech Venture</p>
+                    <p class="speaker-specialty">Business</p>
+                    <p class="speaker-country">🇨🇩 RDC</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="ai">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #ff9a56 0%, #ff6a88 100%);"></div>
+                    <h3>Chukwu Kamara</h3>
+                    <p class="speaker-title">ML Engineer, Innovation Hub</p>
+                    <p class="speaker-specialty">IA & Tech</p>
+                    <p class="speaker-country">🇳🇬 Nigeria</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="data">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Asha Patel</h3>
+                    <p class="speaker-title">Data Scientist, Analytics Corp</p>
+                    <p class="speaker-specialty">Data</p>
+                    <p class="speaker-country">🇿🇦 Afrique du Sud</p>
+                </div>
+
+                <div class="full-speaker-card" data-category="design">
+                    <div class="speaker-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Mira Nkosi</h3>
+                    <p class="speaker-title">Creative Director, Brand Studio</p>
+                    <p class="speaker-specialty">Design</p>
+                    <p class="speaker-country">🇿🇦 Afrique du Sud</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>À propos</h4>
+                <p>AfriConnect Summit réunit les meilleures talents et innovateurs du continent</p>
+            </div>
+            <div class="footer-section">
+                <h4>Liens utiles</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="programme.html">Programme</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year">2026</span> AfriConnect Summit. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Bouton retour en haut -->
+    <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
